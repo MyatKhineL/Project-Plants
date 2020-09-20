@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+   
+}
+html{
+
+}
+body{
+height: 300vh;
+}
+.site-logo{
+    font-size:30px;
+    font-family: 'Merriweather', serif;
+}
+.site-nav{
+    position: absolute;
+    top:0;
+    
+    z-index: 50;
+}
+.site-nav-scroll{
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #00000020;
+    animation:toShow 1s linear;
+}
+.site-nav-scroll .menu-icon{
+    
+}
+.site-nav-scroll .nav-link .current-section{
+border-bottom: #3ae374;
+}
+.nav-link.current-section{
+    border-bottom: 2px solid #3ae374;
+}
+@keyframes toShow{
+    from{
+       transform:translateY(-200px);
+    }to{
+       transform: translateY(0);
+    }
+
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.about-img{
+   
+    width: 500px;
+    height:  350px !important; 
+
+}
+.about-word{
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+.foot{
+    border: 18px solid #ffffff;
+    border-right-color:#3ae374;
+    
+    
+    }
+    .middle{
+
+    border:18px solid#3ae374;
+    }
+    .top{
+    
+    border: 18px solid#3ae374;
+    border-right-color:#ffffff;
+    
+   
+    }
+    .pj{
+    display: flex;
+    position: relative;
+    }
+    .cdard{
+    width: 256px;
+    height: 278px;
+    background-color: white;
+    margin: 0 auto;
+    }
+    .img-card{
+        width: 256px;
+    height: 200px;
+    }
+    .plant-word{
+    text-align:center;
+    }
+    .price-height{
+    display: flex;
+    justify-content: space-around;
+    }
+    .plant-h{
+    position: absolute;
+    right: 28px;
+    top: 5px;
+    color: white;
+    }
+    .price{
+        color:#3ae374;
+    }
+    .cdard{
+        /* box-shadow:0 15px 30px rgba(0,0,0,0.20), 0 11px 8px rgba(0,0,0,0.22);  */
+        box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.15);
+    }
+    .cdard:hover{
+        /* box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15); */
+        box-shadow:0 15px 30px rgba(0,0,0,0.15), 0 11px 8px rgba(0,0,0,0.15); 
+        transform: scale(0.98);
+    }
+    .product{
+    font-size:30px;
+    font-family: 'Merriweather', serif;
+    }
+    .Hay{
+        display: flex;
+        justify-content: space-around;
+        }
+        .email-box{
+        text-align: center;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #dfe4ea;
+        }
+        .send{
+            width:150px;
+            background-color: #dfe4ea
+        }
+       
+        .box{
+            background-color: #dfe4ea;
+            height: 75px;
+            padding: 14px 20px
+        }
+        .footer-card-one{
+            width: 200px;
+            padding:10px 10px;
+            /* background-color: aquamarine; */
+            background-color: #ecf0f1;
+        }
+        .truck{
+            font-size: 3rem;
+          
+        }
+        .footer-word-one{
+         font-size: 1.5rem;
+         text-align: center;
+
+        }
+        .footer-sar{
+           
+        }
+        .bartwo{
+
+        }
+        .final-icon-one{
+            width: 36px;
+             height: 36px; 
+            background-color: #95a5a6 !important ;
+            border-radius: 50%;
+            position: relative;
+          }
+          #final-facebook{
+            font-size: 1.5rem;
+            color:#bdc3c7;
+            position: absolute;
+            top: 6px;
+            right: 12px;
+          }
+          #final-twitter{
+           
+           font-size: 1.5rem;
+           color: #bdc3c7;
+           position: absolute;
+           top: 7px;
+           right: 6px;
+
+          }
+          #final-instragram{
+            font-size: 1.5rem;
+            color: #bdc3c7;
+            position: absolute;
+            top: 6px;
+            right: 7px;
+          }
+          .bar-one{
+            
+            height: 1px;
+            background-color:#95a5a6;
+           
+          }
+          .ani-delay-1{
+           animation-delay: 0.5s;
+          }
+          .ani-delay-2{
+            animation-delay: 1s;
+           }
+           .ani-delay-3{
+            animation-delay: 1.5s;
+           }
+           .ani-delay-4{
+            animation-delay: 1.5s;
+           }
+           .ani-delay-5{
+            animation-delay: 1.7s;
+           }
+           .ani-delay-6{
+            animation-delay: 2s;
+           }
+           .ani-delay-7{
+            animation-delay: 2.3s;
+           }
+           .ani-delay-8{
+            animation-delay: 2.5s;
+           }
+           .ani-delay-9{
+            animation-delay: 2.6s;
+           }
+           .ani-delay-10{
+            animation-delay: 2.6s;
+           }
+           .ani-delay-11{
+            animation-delay: 2.6s;
+           }
+          
+@media screen and (max-width:780px){
+    .site-nav{
+        background-color: #ffffffee;
+        backdrop-filter: blur(5px);
+        box-shadow: 0 0 5px #00000020;
+    }
+    .navbar-nav{
+        padding-top: 20px;
+    }
+    .navbar-nav .nav-link{
+        color:#2ed573 !important;
+        padding: 15px 20px;
+        background-color: #ffffff;
+        margin-bottom: 20px;
+        box-shadow: 0 0 5px #00000015;
+        border-radius:10em;
+        text-align: center;
+        }
+} 
+@media screen and (max-width:480px){
+    .Hay {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .box {
+        background-color: #dfe4ea;
+        height: 142px;
+        
+        padding: 20px 4px;  
+    }
+    .send{
+        margin: 12px 83px;
+    }
+    .final-part{
+     display:contents !important;
+     padding: 10px 10px ;
+    
+
+    }
+    .site-nav{
+        background-color: #ffffffee;
+        backdrop-filter: blur(5px);
+        box-shadow: 0 0 5px #00000020;
+    }
+    .final-word{
+        text-align: center;
+    }
+    .home-img{
+        margin-top:  180px;
+    }
+    .navbar-nav .nav-link{
+    color:#2ed573 !important;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px #00000015;
+    border-radius:10em;
+    text-align: center;
+    }
+    
+    .navbar-nav{
+        padding-top: 20px;
+    }
+    .aboutSarB{
+        text-align: center;
+    }
+
+}
