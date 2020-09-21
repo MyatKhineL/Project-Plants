@@ -3,7 +3,7 @@
    
 }
 html{
-
+scroll-behavior: smooth;
 }
 body{
 height: 300vh;
@@ -198,34 +198,34 @@ border-bottom: #3ae374;
            animation-delay: 0.5s;
           }
           .ani-delay-2{
-            animation-delay: 1s;
+            animation-delay: 0.6s;
            }
            .ani-delay-3{
-            animation-delay: 1.5s;
+            animation-delay: 0.7s;
            }
            .ani-delay-4{
-            animation-delay: 1.5s;
+            animation-delay: 0.8s;
            }
            .ani-delay-5{
-            animation-delay: 1.7s;
+            animation-delay: 0.8s;
            }
            .ani-delay-6{
-            animation-delay: 2s;
+            animation-delay: 0.8s;
            }
            .ani-delay-7{
-            animation-delay: 2.3s;
+            animation-delay: 0.8s;
            }
            .ani-delay-8{
-            animation-delay: 2.5s;
+            animation-delay: 0.8s;
            }
            .ani-delay-9{
-            animation-delay: 2.6s;
+            animation-delay: 0.8s;
            }
            .ani-delay-10{
-            animation-delay: 2.6s;
+            animation-delay: 0.8s;
            }
            .ani-delay-11{
-            animation-delay: 2.6s;
+            animation-delay: 0.8s;
            }
           
 @media screen and (max-width:780px){
