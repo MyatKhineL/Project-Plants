@@ -248,19 +248,18 @@ border-bottom: #3ae374;
         }
 } 
 @media screen and (max-width:480px){
-    .Hay {
+    .Hay{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    .box {
+    .box{
         background-color: #dfe4ea;
-        height: 142px;
-        
-        padding: 20px 4px;  
+        height:142px;
+        padding:20px 4px;  
     }
     .send{
-        margin: 12px 83px;
+        margin:12px 83px;
     }
     .final-part{
      display:contents !important;
